@@ -7,7 +7,7 @@
  */
 ?>
             <footer>
-                <p class="italic"><strong><a href="<?=ROOT_URL?>" title="Homeage">Simple Blog</a></strong> created for a PHP Technical Test &nbsp; | &nbsp;
+                <p class="italic"><strong><a href="<?=ROOT_URL?>" title="Homeage">Simple Blog</a></strong> created by Emmanuel Ketcha Bepa &nbsp; | &nbsp;
                 <?php if (!empty($_SESSION['is_logged'])): ?>
                     You are connected as Admin - <a href="<?=ROOT_URL?>?p=admin&amp;a=logout">Logout</a> &nbsp; | &nbsp;
                     <a href="<?=ROOT_URL?>?p=blog&amp;a=all">View All Blog Posts</a>
